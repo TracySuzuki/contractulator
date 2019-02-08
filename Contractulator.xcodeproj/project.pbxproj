@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6A5ED0220D170A003A9A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A5ECF220D170A003A9A3D /* AppDelegate.swift */; };
+		EF6A5ED2220D170A003A9A3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A5ED1220D170A003A9A3D /* ViewController.swift */; };
+		EF6A5ED5220D170A003A9A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6A5ED3220D170A003A9A3D /* Main.storyboard */; };
+		EF6A5ED7220D170D003A9A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6A5ED6220D170D003A9A3D /* Assets.xcassets */; };
+		EF6A5EDA220D170D003A9A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6A5ED8220D170D003A9A3D /* LaunchScreen.storyboard */; };
+		EF6A5EE5220D170D003A9A3D /* ContractulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A5EE4220D170D003A9A3D /* ContractulatorTests.swift */; };
+		EF6A5EF0220D170D003A9A3D /* ContractulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A5EEF220D170D003A9A3D /* ContractulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6A5EE1220D170D003A9A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6A5EC4220D170A003A9A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6A5ECB220D170A003A9A3D;
+			remoteInfo = Contractulator;
+		};
+		EF6A5EEC220D170D003A9A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6A5EC4220D170A003A9A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6A5ECB220D170A003A9A3D;
+			remoteInfo = Contractulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6A5ECC220D170A003A9A3D /* Contractulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contractulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6A5ECF220D170A003A9A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF6A5ED1220D170A003A9A3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF6A5ED4220D170A003A9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6A5ED6220D170D003A9A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6A5ED9220D170D003A9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6A5EDB220D170D003A9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6A5EE0220D170D003A9A3D /* ContractulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContractulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6A5EE4220D170D003A9A3D /* ContractulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractulatorTests.swift; sourceTree = "<group>"; };
+		EF6A5EE6220D170D003A9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6A5EEB220D170D003A9A3D /* ContractulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContractulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6A5EEF220D170D003A9A3D /* ContractulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractulatorUITests.swift; sourceTree = "<group>"; };
+		EF6A5EF1220D170D003A9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6A5EC9220D170A003A9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A5EDD220D170D003A9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A5EE8220D170D003A9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6A5EC3220D170A003A9A3D = {
+			isa = PBXGroup;
+			children = (
+				EF6A5ECE220D170A003A9A3D /* Contractulator */,
+				EF6A5EE3220D170D003A9A3D /* ContractulatorTests */,
+				EF6A5EEE220D170D003A9A3D /* ContractulatorUITests */,
+				EF6A5ECD220D170A003A9A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6A5ECD220D170A003A9A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A5ECC220D170A003A9A3D /* Contractulator.app */,
+				EF6A5EE0220D170D003A9A3D /* ContractulatorTests.xctest */,
+				EF6A5EEB220D170D003A9A3D /* ContractulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6A5ECE220D170A003A9A3D /* Contractulator */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A5ECF220D170A003A9A3D /* AppDelegate.swift */,
+				EF6A5ED1220D170A003A9A3D /* ViewController.swift */,
+				EF6A5ED3220D170A003A9A3D /* Main.storyboard */,
+				EF6A5ED6220D170D003A9A3D /* Assets.xcassets */,
+				EF6A5ED8220D170D003A9A3D /* LaunchScreen.storyboard */,
+				EF6A5EDB220D170D003A9A3D /* Info.plist */,
+			);
+			path = Contractulator;
+			sourceTree = "<group>";
+		};
+		EF6A5EE3220D170D003A9A3D /* ContractulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A5EE4220D170D003A9A3D /* ContractulatorTests.swift */,
+				EF6A5EE6220D170D003A9A3D /* Info.plist */,
+			);
+			path = ContractulatorTests;
+			sourceTree = "<group>";
+		};
+		EF6A5EEE220D170D003A9A3D /* ContractulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6A5EEF220D170D003A9A3D /* ContractulatorUITests.swift */,
+				EF6A5EF1220D170D003A9A3D /* Info.plist */,
+			);
+			path = ContractulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6A5ECB220D170A003A9A3D /* Contractulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6A5EF4220D170D003A9A3D /* Build configuration list for PBXNativeTarget "Contractulator" */;
+			buildPhases = (
+				EF6A5EC8220D170A003A9A3D /* Sources */,
+				EF6A5EC9220D170A003A9A3D /* Frameworks */,
+				EF6A5ECA220D170A003A9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contractulator;
+			productName = Contractulator;
+			productReference = EF6A5ECC220D170A003A9A3D /* Contractulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6A5EDF220D170D003A9A3D /* ContractulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6A5EF7220D170D003A9A3D /* Build configuration list for PBXNativeTarget "ContractulatorTests" */;
+			buildPhases = (
+				EF6A5EDC220D170D003A9A3D /* Sources */,
+				EF6A5EDD220D170D003A9A3D /* Frameworks */,
+				EF6A5EDE220D170D003A9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6A5EE2220D170D003A9A3D /* PBXTargetDependency */,
+			);
+			name = ContractulatorTests;
+			productName = ContractulatorTests;
+			productReference = EF6A5EE0220D170D003A9A3D /* ContractulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6A5EEA220D170D003A9A3D /* ContractulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6A5EFA220D170D003A9A3D /* Build configuration list for PBXNativeTarget "ContractulatorUITests" */;
+			buildPhases = (
+				EF6A5EE7220D170D003A9A3D /* Sources */,
+				EF6A5EE8220D170D003A9A3D /* Frameworks */,
+				EF6A5EE9220D170D003A9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6A5EED220D170D003A9A3D /* PBXTargetDependency */,
+			);
+			name = ContractulatorUITests;
+			productName = ContractulatorUITests;
+			productReference = EF6A5EEB220D170D003A9A3D /* ContractulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6A5EC4220D170A003A9A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hannah Leland";
+				TargetAttributes = {
+					EF6A5ECB220D170A003A9A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF6A5EDF220D170D003A9A3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF6A5ECB220D170A003A9A3D;
+					};
+					EF6A5EEA220D170D003A9A3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF6A5ECB220D170A003A9A3D;
+					};
+				};
+			};
+			buildConfigurationList = EF6A5EC7220D170A003A9A3D /* Build configuration list for PBXProject "Contractulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6A5EC3220D170A003A9A3D;
+			productRefGroup = EF6A5ECD220D170A003A9A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6A5ECB220D170A003A9A3D /* Contractulator */,
+				EF6A5EDF220D170D003A9A3D /* ContractulatorTests */,
+				EF6A5EEA220D170D003A9A3D /* ContractulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6A5ECA220D170A003A9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A5EDA220D170D003A9A3D /* LaunchScreen.storyboard in Resources */,
+				EF6A5ED7220D170D003A9A3D /* Assets.xcassets in Resources */,
+				EF6A5ED5220D170A003A9A3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A5EDE220D170D003A9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A5EE9220D170D003A9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6A5EC8220D170A003A9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A5ED2220D170A003A9A3D /* ViewController.swift in Sources */,
+				EF6A5ED0220D170A003A9A3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A5EDC220D170D003A9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A5EE5220D170D003A9A3D /* ContractulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A5EE7220D170D003A9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A5EF0220D170D003A9A3D /* ContractulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6A5EE2220D170D003A9A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6A5ECB220D170A003A9A3D /* Contractulator */;
+			targetProxy = EF6A5EE1220D170D003A9A3D /* PBXContainerItemProxy */;
+		};
+		EF6A5EED220D170D003A9A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6A5ECB220D170A003A9A3D /* Contractulator */;
+			targetProxy = EF6A5EEC220D170D003A9A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6A5ED3220D170A003A9A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6A5ED4220D170A003A9A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6A5ED8220D170D003A9A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6A5ED9220D170D003A9A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6A5EF2220D170D003A9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF6A5EF3220D170D003A9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6A5EF5220D170D003A9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = Contractulator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Contractulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF6A5EF6220D170D003A9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = Contractulator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Contractulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF6A5EF8220D170D003A9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ContractulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ContractulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contractulator.app/Contractulator";
+			};
+			name = Debug;
+		};
+		EF6A5EF9220D170D003A9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ContractulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ContractulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contractulator.app/Contractulator";
+			};
+			name = Release;
+		};
+		EF6A5EFB220D170D003A9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ContractulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ContractulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contractulator;
+			};
+			name = Debug;
+		};
+		EF6A5EFC220D170D003A9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = ContractulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.ContractulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contractulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6A5EC7220D170A003A9A3D /* Build configuration list for PBXProject "Contractulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A5EF2220D170D003A9A3D /* Debug */,
+				EF6A5EF3220D170D003A9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6A5EF4220D170D003A9A3D /* Build configuration list for PBXNativeTarget "Contractulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A5EF5220D170D003A9A3D /* Debug */,
+				EF6A5EF6220D170D003A9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6A5EF7220D170D003A9A3D /* Build configuration list for PBXNativeTarget "ContractulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A5EF8220D170D003A9A3D /* Debug */,
+				EF6A5EF9220D170D003A9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6A5EFA220D170D003A9A3D /* Build configuration list for PBXNativeTarget "ContractulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6A5EFB220D170D003A9A3D /* Debug */,
+				EF6A5EFC220D170D003A9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6A5EC4220D170A003A9A3D /* Project object */;
+}
